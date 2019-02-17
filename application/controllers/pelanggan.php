@@ -9,7 +9,11 @@ class pelanggan extends CI_Controller {
 			$data['page'] = "pelanggan/form";
 			$this->load->view('main',$data);
 		}
-
+		// Ini fungsi submit
+		/** 
+		*
+		* @author : Afif Fadhillah
+		**/
 		public function submit()
 
 		{
