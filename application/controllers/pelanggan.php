@@ -30,7 +30,8 @@ class pelanggan extends CI_Controller {
 			$this->pelanggan_model->add($pelanggan);
 		}
 
-		public function show_list_pelanggan(){
+		public function show_list_pelanggan()
+		{
 
 			$data['page'] = "pelanggan/list_pelanggan";
 			$this->load->model('pelanggan_model');
@@ -48,4 +49,9 @@ class pelanggan extends CI_Controller {
 			$this->pelanggan_model->hapus_pelanggan($id_pelanggan);
 
 		}
+		// public function edit_pelanggan()
+
+		// {
+			
+		// }
 }

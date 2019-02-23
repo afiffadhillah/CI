@@ -12,7 +12,7 @@
 				<th>Telpon</th>
 				<th>Alamat</th>
 			</tr>
-			<tr></tr>
+			
 
 			<?php
 			$no=1;
